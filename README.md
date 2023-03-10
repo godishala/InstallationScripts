@@ -1,4 +1,4 @@
 # InstallationScripts
 
 
-Scripts to install or modify some packages
+Scripts to install or modify some packages/configs
