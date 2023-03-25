@@ -6,9 +6,11 @@ postman_archive=$(curl -s -f -L "https://www.postman.com/downloads" | grep -Eo "
 
 wget $postman_archive  -O $D/postman.tar.gz
 
+wget https://raw.githubusercontent.com/godishala/InstallationScripts/main/postman.desktop -O ~/.local/share/applications/postman.desktop
+
 sudo tar -xzvf $D/postman.tar.gz -C /opt/
 
-sudo chown $user:$user /opt/Postman
+sudo chown -R $user:$user /opt/Postman
 
 
 
