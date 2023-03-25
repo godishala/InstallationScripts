@@ -2,6 +2,8 @@
 
 sudo apt update && sudo apt upgrade -y
 
+sudo apt install npm
+
 D=$HOME/Downloads
 
 git -C $D clone https://github.com/gohugoio/hugo.git
